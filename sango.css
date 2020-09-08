@@ -1,0 +1,312 @@
+/*全体*/
+
+/*ウィンドウ幅480px以上*/
+@media screen and ( min-width:480px )
+{
+    body{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .sp{
+        display: none;
+    }
+}
+/*ウィンドウ幅479px以下*/
+@media screen and ( max-width:479px )
+{
+    body{
+        width: 640px;
+        margin: 0 auto;
+    }
+    .pc{
+        display: none;
+    }
+}
+
+/*top*/
+.top{
+position: relative;
+}
+.top-cont{
+position: absolute;
+top: 700px;
+text-align: center;
+}
+.top1-main{
+position: relative;
+}
+.top1-btn{
+position: absolute;
+left: 14%;
+bottom: 8%;
+}
+.top2-btn{
+position: absolute;
+left: 14%;
+bottom: 8%;
+}
+/*ウィンドウ幅479px以下*/
+@media screen and ( max-width:479px )
+{
+    img.top-sp{
+        width: 640px;
+    }
+    .top-cont{
+        top: 450px;
+    }
+    img.top-main{
+        width: 640px;
+    }
+    .top1-btn{
+        width: 350px;
+    }
+    .top2-btn{
+        width: 450px;
+    }
+}
+/*sec1*/
+.sec1{
+background-image: url(img/bg2.png);
+text-align: center;
+}
+.sec1-cont{
+background-image: url(img/kusuri_bg.png);
+}
+.anxiety{
+width: 830px;
+padding-top: 30px;
+}
+/*ウィンドウ幅479px以下*/
+@media screen and ( max-width:479px )
+{
+    .sec1{
+        background-image: url(img/bg2.png);
+        text-align: center;
+        width: 640px;
+        }
+    .anxiety{
+        width: 640px;
+        padding-top: 30px;
+    }
+}
+
+/*sec2*/
+.sec2{
+background-image: url(img/annsinn_bg.png);
+text-align: center;
+padding-top: 30px;
+padding-bottom: 20px;
+}
+.kodawari-cont{
+background-color: rgb(241, 235, 178);
+border: solid 5px rgb(238, 89, 3);
+border-radius: 25px;
+width: 830px;
+height: 400px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+.kodawari{
+background-image: url(img/kodawari_box_bg.png);
+border: solid 5px blue;
+width: 925px;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 20px;
+}
+.kodawari-sec{
+display: flex;
+justify-content: space-evenly;
+margin-top: 5%;
+}
+.kodawari-p{
+font-size: 24px;
+font-weight: bold;
+width: 500px;
+text-align: left;
+}
+span{
+color: rgb(238, 89, 3);
+}
+/*ウィンドウ幅480px以上*/
+@media screen and ( min-width:480px )
+{
+    .kodawari-img{
+        width: 280px;
+        box-shadow: 2px 2px 4px gray;
+    }
+}
+/*ウィンドウ幅479px以下*/
+@media screen and ( max-width:479px )
+{
+    .kodawari{
+        width: 600px;
+    }
+    img.kodawari-top{
+        width: 600px;
+    }
+    .kodawari-cont{
+        width: 550px;
+        height: 350px;
+    }
+    .kodawari-img{
+        width: 280px;
+        height: 156px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    img.kodawari_ber{
+        width: 550px;
+    }
+    .kodawari-sec{
+        margin-top: 10%;
+    }
+    .kodawari-p{
+        font-size: 22px;
+        margin-top: 0;
+        margin-left: 2%;
+    }
+} 
+
+/*sec4*/
+.sec4{
+background-image: url(img/qa_bg.png);
+text-align: center;
+padding-top: 3%;
+padding-bottom: 3%;
+}
+.question{
+display: inline-table;
+}
+.q-title{
+position: relative;
+background-color: rgb(5, 5, 109);
+border-radius: 10px 10px 0 0;
+width: 750px;
+height: 100px;
+}
+.q-icon{
+position: absolute;
+top: 10%;
+left: 5%;
+}
+.q-p{
+color: white;
+text-align: center;
+padding-top: 5%;
+font-size: 20px;
+}
+.q-answer{
+position: relative;
+background-color: rgb(243, 240, 191);
+border: solid 2px rgb(5, 5, 109);
+border-radius:0 0 10px 10px;
+width: 746px;
+height: 200px;
+}
+.a-icon{
+position: absolute;
+top: 15%;
+left: 5%;
+}
+.a-p{
+position: absolute;
+top: 15%;
+left: 20%;
+font-size: 20px;
+font-weight: bold;
+color: rgb(5, 5, 109);
+}
+.q-text{
+position: absolute;
+font-size: 14px;
+text-align: left;
+bottom: 5%;
+left: 10%;
+color: rgb(5, 5, 109);
+font-weight: 800;
+}
+
+.return{
+background-color: white;
+border: solid 2px black;
+width: 746px;
+margin-top: 5%;
+margin-left: auto;
+margin-right: auto;
+}
+h1{
+color: rgb(5, 5, 109);
+margin-bottom: 0;
+}
+.return-p{
+    text-align: left;
+    width: 600px;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+}
+.return3-p{
+text-align: left;
+text-indent: -1em;
+font-weight: 800;
+margin-left: auto;
+margin-right: auto;
+}
+.p1{
+    margin-bottom: 0;
+}
+.p2{
+    margin-top: 0;
+}
+/*ウィンドウ幅479px以下*/
+@media screen and ( max-width:479px )
+{
+    img.qa{
+        width: 450px;
+    }
+    .q-title{
+        width: 570px;
+        height: 80px;
+    }
+    .q-icon {
+        top: 14%;
+        width: 60px;
+    }
+    .q-answer{
+        width: 566px;
+    }
+    .a-icon{
+        width: 60px;
+        top: 10%;
+    }
+    .a-p{
+        top: 6%;
+        left: 18%;
+    }
+    .q-text{
+        font-size: 17px;
+        bottom: 0;
+        left: 5%;
+        font-weight: 800;
+    }
+    .return{
+        width: 570px;
+    }
+    .return-p{
+        font-size: 1.4rem;
+        width: 80%;
+    }
+    .return3-p {
+        width: 80%;
+        font-size: 1.4rem;
+    }
+} 
+/*ウィンドウ幅480px以上*/
+@media screen and ( min-width:480px )
+{
+    .return3-p{
+        margin-left: 5%;
+    }
+}
